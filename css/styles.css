@@ -132,7 +132,8 @@ img {
   color: var(--pressed-state);
 }
 
-.menu .menu-studio{
+.menu .menu-studio,
+.menu .menu-portfolio{
   position: relative;
   color: #404bbf;
 }
@@ -519,6 +520,9 @@ img {
  fill: currentColor;
 }
 
+/* .footer-form{
+ margin-right: 0;} */
+
 /* Modal Windows */
 
 .backdrop{
@@ -679,6 +683,11 @@ img {
  background-color: #404bbf;
  border: 1px solid #404bbf;
  border-radius: 2px;
+}
+
+.modal-checkbox-input:focus + .modal-checkbox-input-custom{
+  border: 2px solid #404bbf;
+  border-radius: 2px;
 }
 
 .modal-checkbox-icon-custom{

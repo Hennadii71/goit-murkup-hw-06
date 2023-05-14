@@ -373,7 +373,19 @@
           </li>
         </ul>
        </div>
+       
+       <form class="footer-form">
+        <p class="footer-form-txt">Subscribe</p>
+         <input class="footer-form-input" type="email" name="footer-form-input" placeholder="E-mail" required>
+         <button class="footer-form-button" type="submit">
+           Subscribe
+           <svg width="24" height="24">
+             <use href="./images/img-icon.svg/icons.svg#footer-form-icon"></use>
+           </svg>
+         </button>
+       </form>
       </div>
+      
     </footer>
     <!-- Modal Windows -->
     <div data-modal class="backdrop is-hidden">
@@ -388,14 +400,13 @@
 
         <form class="modal-form" name="modal-form">
             <p class="modal-form-title">Leave your contacts and we will call you back</p>
-          
-            <label class="modal-label" for="input-name">Name</label>
+          <label class="modal-label" for="input-name">Name</label>
             <div class="label-icon">
               <input class="modal-input" 
-              type="text" 
-              name="modal-input-name"
-              required
-               id="input-name">
+                type="text" 
+                name="modal-input-name"
+                required
+                id="input-name">
                 <svg class="modal-icon" width="18" height="18">
                  <use href="./images/img-icon.svg/icons.svg#icon-person-modal"></use>
                 </svg>
@@ -404,9 +415,9 @@
           <label class="modal-label" for="input-phone">Phone</label>
             <div class="label-icon">
             <input class="modal-input" 
-            type="tel" 
-            name="modal-input-phone"
-            required
+             type="tel" 
+             name="modal-input-phone"
+             required
              id="input-phone">
           <svg class="modal-icon" width="18" height="24">
             <use href="./images/img-icon.svg/icons.svg#icon-phone-modal"></use>
@@ -416,9 +427,9 @@
           <label class="modal-label" for="input-email">Email</label>
             <div class="label-icon">
             <input class="modal-input" 
-            type="email" 
-            name="modal-input-email"
-            required
+             type="email" 
+             name="modal-input-email"
+             required
              id="input-email">
           <svg class="modal-icon" width="18" height="24">
             <use href="./images/img-icon.svg/icons.svg#icon-email-modal"></use>
@@ -429,15 +440,17 @@
           
          <div class="modal-checkbox">
           <label class="modal-checkbox-txt">
-            <input class="modal-checkbox-input visually-hidden" type="checkbox" name="modal-checkbox" value="privacy-policy">
-            
+            <input class="modal-checkbox-input visually-hidden" 
+             type="checkbox" 
+             name="modal-checkbox" 
+             required 
+             value="privacy-policy">
             <span class="modal-checkbox-input-custom">
                 <svg class="modal-checkbox-icon-custom" width="10" height="8">
                   <use href="./images/img-icon.svg/icons.svg#icon-vector"></use>
                 </svg>
-              
-              </span>
-              I accept the terms and conditions of the 
+             </span>
+              I accept the terms and conditions of the&nbsp; 
               <a href="" class="modal-link link">Privacy Policy</a>
             </label>
           </div>
@@ -449,4 +462,4 @@
     <script src="./js/modal.js"></script>
   </body>
 </html>
-fill="#f4f4fd" style="fill: var(--color1, #f4f4fd)" 
+ 
