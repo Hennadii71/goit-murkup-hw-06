@@ -312,6 +312,8 @@ img {
  margin-top: 0;
 }
 
+
+
 /* Photo section */
 .photo{
  padding-top: 0;
@@ -675,7 +677,6 @@ color: #FFFFFF;
 }
 
 .modal-input-textarea{
-  margin-top: 4px;
   width: 100%;
   height: 120px;
   padding: 15px;
@@ -911,3 +912,5 @@ color: #FFFFFF;
 .link-portfolio:focus .overlay{
   transform: translate(0, 0); 
 }
+
+
